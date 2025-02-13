@@ -40,7 +40,7 @@ tom.forward(30)
 tom.penup()
 tom.backward(30)
 tom.pendown()
-
+tom.fd(100)
 
 tom.hideturtle()
 window.tracer(True)
