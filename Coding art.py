@@ -11,23 +11,6 @@ tom.penup()
 tom.goto(-100, 200)
 tom.pendown()
 
-def darredsquare():
-    tom.begin_fill()
-    tom.color("#ed1c24")
-    for i in range(4):
-        tom.fd(25)
-        tom.rt(90)
-    tom.end_fill()
-
-def yellowsquare():
-    tom.begin_fill()
-    tom.color("#f7941d")
-    for i in range(4):
-        tom.fd(25)
-        tom.rt(90)
-    tom.end_fill()
-
-
 def draw_red_square(x, y,c):
     tom.pu()
     tom.goto(x, y)
@@ -661,10 +644,6 @@ for i in range(3):
         tom.rt(90)
     tom.fd(25)
 tom.end_fill()
-
-
-
-
 
 tom.hideturtle()
 window.tracer(True)
